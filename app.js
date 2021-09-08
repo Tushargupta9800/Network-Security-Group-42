@@ -4,6 +4,7 @@ const userMessageForm = document.querySelector('form');
 const userMessagesList = document.querySelector('ul');
 
 function renderMessages() {
+  
   let messageItems = '';
   for (const message of userMessages) {
     messageItems = `
